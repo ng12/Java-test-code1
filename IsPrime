@@ -1,0 +1,18 @@
+public class IsPrime{
+
+public boolean isprime(int num){
+ 
+ for(int i=2;i<num/2;i++){
+  if(num%i==0){
+   return true;
+  }
+  return false;
+ }
+}
+
+public static void main(String args[]){
+ 
+ IsPrime p1 = new IsPrime();
+ System.out.println(p1.isprime(7));
+}
+}
